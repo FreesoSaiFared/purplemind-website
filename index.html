@@ -3,82 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to PurpleMind</title>
+    <title>PurpleMind.info - Ketamine Information & Support</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #4B0082; /* Deep purple background */
-            color: #FFFFFF; /* White text */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         .container {
-            text-align: center;
-            max-width: 700px;
+            max-width: 1100px;
+            margin: auto;
             padding: 20px;
-            background-color: #6A0DAD; /* Slightly lighter purple */
-            border-radius: 15px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
-        h1 {
-            font-size: 3em;
-            color: #FFD700; /* Gold for the title */
+        header {
+            background: #4a148c;
+            color: white;
+            padding: 1rem;
+            text-align: center;
         }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
+        nav {
+            background: #7b1fa2;
+            padding: 1rem;
         }
-        .description {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #9B30FF; /* Vibrant purple for the description box */
-            border-radius: 10px;
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
         }
-        .email {
-            margin-top: 20px;
-            font-size: 1.1em;
-            color: #ADD8E6; /* Light blue for the email */
+        nav ul li {
+            margin: 0 15px;
         }
-        a {
-            color: #FFD700; /* Gold links */
+        nav ul li a {
+            color: white;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        nav ul li a:hover {
+            color: #e1bee7;
+        }
+        .main-content {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .disclaimer {
+            background: #ffebee;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 5px solid #c62828;
+        }
+        footer {
+            background: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>PurpleMind.info</h1>
+        <p>Information, Support, and Understanding</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ketamine-effects.html">Ketamine Long-term Effects</a></li>
+            <li><a href="supernatural.html">Supernatural & Ketamine</a></li>
+            <li><a href="beyond-mainstream.html">Beyond Medical Mainstream</a></li>
+            <li><a href="amsterdam-emergencies.html">Amsterdam Emergencies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <div class="container">
-        <h1>Welcome to PurpleMind</h1>
-        <p>We are currently building a new forum dedicated to supporting individuals who have experienced long-term effects after ketamine use.</p>
-        
-        <div class="description">
-            <p>
-                At PurpleMind, we aim to create a safe and inclusive space for individuals to connect, share experiences, and access resources. Our platform will feature:
-            </p>
+        <div class="main-content">
+            <h2>Welcome to PurpleMind.info</h2>
+            
+            <div class="disclaimer">
+                <h3>Important Notice</h3>
+                <p>We are NOT a recovery or rehabilitation organization. We provide information and support while respecting individual autonomy and personal choices. Our goal is to offer accurate, unbiased information to support informed decision-making.</p>
+            </div>
+
+            <p>PurpleMind.info is dedicated to providing comprehensive, judgment-free information about ketamine and its effects. We believe in:</p>
+            
             <ul>
-                <li>An open forum for general discussions</li>
-                <li>A private forum for more sensitive conversations</li>
-                <li>AI moderation tools to ensure a safe and respectful community</li>
+                <li>Respecting individual autonomy and personal choices</li>
+                <li>Providing accurate, evidence-based information</li>
+                <li>Supporting harm reduction and safety</li>
+                <li>Creating a non-judgmental space for open discussion</li>
+                <li>Bridging the gap between user experiences and medical understanding</li>
             </ul>
-            <p>
-                PurpleMind is designed to support those dealing with psychological or physical challenges, including:
-            </p>
-            <ul>
-                <li>Depression</li>
-                <li>Pain</li>
-                <li>Persistent mental or emotional effects</li>
-            </ul>
-            <p>
-                We see ourselves as veterans who are paving the way for safer practices and better understanding of psychedelic realities. Together, we can turn challenges into opportunities for growth.
-            </p>
+
+            <p>Explore our various sections to learn more about different aspects of ketamine use, from medical perspectives to personal experiences, and find important emergency information for the Amsterdam area.</p>
         </div>
-        
-        <p class="email">For inquiries or to get involved, contact us at <a href="mailto:kijkwijs@gmail.com">kijkwijs@gmail.com</a></p>
     </div>
+
+    <footer>
+        <p>&copy; 2024 PurpleMind.info - Information & Support</p>
+    </footer>
 </body>
 </html>
